@@ -2,7 +2,7 @@
 
 # Humanity
 
-Humanity is a Decentralized Autonomous Organization (DAO) that governs a registry of unique humans.
+Humanity is a Decentralized Autonomous Organization (DAO) that governs a registry of unique humans on Ethereum.
 
 ## Deployed Addresses (Ethereum Mainnet)
 
