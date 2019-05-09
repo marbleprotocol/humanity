@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es2017", "dom"],
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "lib",
+    "baseUrl": ".",
+    "declaration": true,
+    "typeRoots": ["test/types", "node_modules/@0x/typescript-typings/types", "node_modules/@types"]
+  },
+  "include": [
+      "./globals.d.ts",
+      "./build/**/*",
+      "./src/**/*",
+      "./test/**/*",
+      "./scripts/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
