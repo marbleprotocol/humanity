@@ -10,7 +10,7 @@
     "clean": "shx rm -rf lib build",
     "compile": "cake compile",
     "copy_artifacts": "copyfiles './build/artifacts/**/*' ./lib;",
-    "mock_deploy": "tsc && node 'lib/scripts/mock_deploy'",
+    "deploy": "tsc && node 'lib/scripts/deploy'",
     "fork": "npm run chain -- --fork https://mainnet.infura.io/@$block",
     "lint": "solium -d contracts/lend/ --fix",
     "pre_build": "run-s compile copy_artifacts",
